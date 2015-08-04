@@ -1,0 +1,8 @@
+server.port: 3000
+go.profiles.active: local
+---
+go.profiles: local
+go.datasource: mongodb://arahansa:1234@localhost:27017/blogo	
+---
+go.profiles: test
+go.datasource: mongodb://tester:1234@localhost:27017/blogotest
